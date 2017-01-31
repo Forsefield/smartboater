@@ -92,10 +92,32 @@ class Theme extends AbstractTheme
     public function getContext(array $context)
     {
         $gantry = static::gantry();
+        $grav = Grav::instance();
+        $page = $grav['page'];
 
         $context = parent::getContext($context);
-        $context = array_replace($context, Grav::instance()['twig']->twig_vars);
+        $context = array_replace($context, $grav['twig']->twig_vars);
         $context['site'] = $gantry['site'];
+
+        // Emulate site context.
+        if (!isset($context['theme'])) {
+            $context['theme'] = $grav['config']->get('theme');
+        }
+        if (!isset($context['pages'])) {
+            $context['pages'] = $grav['pages']->root();
+        }
+        if (!isset($context['page'])) {
+            $context['page'] = $page;
+        }
+        if (!isset($context['header'])) {
+            $context['header'] = $page->header();
+        }
+        if (!isset($context['media'])) {
+            $context['media'] = $page->media();
+        }
+        if (!isset($context['content'])) {
+            $context['content'] = $page->content();
+        }
 
         return $context;
     }

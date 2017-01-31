@@ -52,6 +52,9 @@ class Gantry5Plugin extends Plugin
             'onThemeInitialized' => [
                 ['initializeGantryTheme', -20]
             ],
+            'onDataTypeExcludeFromDataManagerPluginHook' => [
+                ['onDataTypeExcludeFromDataManagerPluginHook', 0],
+            ],
         ];
     }
 
@@ -203,8 +206,9 @@ class Gantry5Plugin extends Plugin
 
             $this->enable([
                 'onTwigTemplatePaths' => ['onThemeTwigTemplatePaths', 10000],
-                'onPagesInitialized' => ['onThemePagesInitialized', 10000],
+                'onPagesInitialized' => ['onThemePagesInitialized', 100000],
                 'onPageInitialized' => ['onThemePageInitialized', -10000],
+                'getMaintenancePage' => ['getMaintenancePage', 0],
                 'onTwigExtensions' => ['onThemeTwigInitialized', 0],
                 'onTwigSiteVariables' => ['onThemeTwigVariables', 0],
                 'onPageNotFound' => ['onPageNotFound', 1000]
@@ -250,7 +254,7 @@ class Gantry5Plugin extends Plugin
     public function onAdminMenu()
     {
         $nonce = Utils::getNonce('gantry-admin');
-        $this->grav['twig']->plugins_hooked_nav['Appearance'] = ['route' => "gantry/configurations/default/styles?nonce={$nonce}", 'icon' => 'fa-gantry'];
+        $this->grav['twig']->plugins_hooked_nav['Gantry 5'] = ['route' => "gantry/configurations/default/styles?nonce={$nonce}", 'icon' => 'fa-gantry'];
     }
 
     /**
@@ -303,7 +307,10 @@ class Gantry5Plugin extends Plugin
         $twig->twig_vars['gantry_url'] = $this->base;
     }
 
-    public function onThemePagesInitialized()
+    /**
+     * @param Event $event
+     */
+    public function onThemePagesInitialized(Event $event)
     {
         $gantry = Gantry::instance();
         
@@ -311,13 +318,43 @@ class Gantry5Plugin extends Plugin
         if ($gantry['global']->get('offline', 0)) {
             GANTRY_DEBUGGER && \Gantry\Debugger::addMessage("Site is Offline!");
 
-            if (!isset($this->grav['user']->username)) {
+            $user = $this->grav['user'];
+            if (empty($user->authenticated && $user->authorize('site.login'))) {
+                GANTRY_DEBUGGER && \Gantry\Debugger::addMessage("Displaying Offline Page");
+
                 $page = new Page;
                 $page->init(new \SplFileInfo(__DIR__ . '/pages/offline.md'));
 
+                unset($this->grav['page']);
                 $this->grav['page'] = $page;
+
+                $this->enable([
+                    'onMaintenancePage' => ['onMaintenancePage', 100000],
+                ]);
+
+                // Site is offline, there is nothing else to do.
+                $event->stopPropagation();
             }
         }
+    }
+
+    /**
+     * @param Event $event
+     */
+    public function getMaintenancePage(Event $event)
+    {
+        GANTRY_DEBUGGER && \Gantry\Debugger::addMessage("Displaying Maintenance Page");
+
+        $page = new Page;
+        $page->init(new \SplFileInfo(__DIR__ . '/pages/offline.md'));
+
+        $event->page = $page;
+
+        $this->enable([
+            'onMaintenancePage' => ['onThemePageInitialized', 0],
+        ]);
+
+        $event->stopPropagation();
     }
 
     /**
@@ -455,5 +492,10 @@ class Gantry5Plugin extends Plugin
         $domain = $uri->host();
 
         setcookie($name, $value, $expire, $path, $domain);
+    }
+
+    public function onDataTypeExcludeFromDataManagerPluginHook()
+    {
+        $this->grav['admin']->dataTypesExcludedFromDataManagerPlugin[] = 'gantry5';
     }
 }

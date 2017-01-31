@@ -1141,37 +1141,37 @@ a:hover {
   font-family: "rubik";
   font-style: normal;
   font-weight: 900;
-  src: url('../../../../../themes/rt_protean/fonts/rubik/rubik-black/rubik-black-webfont.eot#iefix') format("embedded-opentype"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-black/rubik-black-webfont.woff2') format("woff2"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-black/rubik-black-webfont.woff') format("woff"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-black/rubik-black-webfont.ttf') format("truetype"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-black/rubik-black-webfont.svg#rubik') format("svg");
+  src: url('../../../../../themes/rt_protean/fonts/rubik/rubik-black/rubik-black-webfont.eot?5890f263#iefix') format("embedded-opentype"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-black/rubik-black-webfont.woff2?5890f263') format("woff2"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-black/rubik-black-webfont.woff?5890f263') format("woff"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-black/rubik-black-webfont.ttf?5890f263') format("truetype"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-black/rubik-black-webfont.svg?5890f263#rubik') format("svg");
 }
 @font-face {
   font-family: "rubik";
   font-style: normal;
   font-weight: 700;
-  src: url('../../../../../themes/rt_protean/fonts/rubik/rubik-bold/rubik-bold-webfont.eot#iefix') format("embedded-opentype"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-bold/rubik-bold-webfont.woff2') format("woff2"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-bold/rubik-bold-webfont.woff') format("woff"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-bold/rubik-bold-webfont.ttf') format("truetype"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-bold/rubik-bold-webfont.svg#rubik') format("svg");
+  src: url('../../../../../themes/rt_protean/fonts/rubik/rubik-bold/rubik-bold-webfont.eot?5890f263#iefix') format("embedded-opentype"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-bold/rubik-bold-webfont.woff2?5890f263') format("woff2"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-bold/rubik-bold-webfont.woff?5890f263') format("woff"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-bold/rubik-bold-webfont.ttf?5890f263') format("truetype"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-bold/rubik-bold-webfont.svg?5890f263#rubik') format("svg");
 }
 @font-face {
   font-family: "rubik";
   font-style: normal;
   font-weight: 500;
-  src: url('../../../../../themes/rt_protean/fonts/rubik/rubik-medium/rubik-medium-webfont.eot#iefix') format("embedded-opentype"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-medium/rubik-medium-webfont.woff2') format("woff2"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-medium/rubik-medium-webfont.woff') format("woff"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-medium/rubik-medium-webfont.ttf') format("truetype"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-medium/rubik-medium-webfont.svg#rubik') format("svg");
+  src: url('../../../../../themes/rt_protean/fonts/rubik/rubik-medium/rubik-medium-webfont.eot?5890f263#iefix') format("embedded-opentype"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-medium/rubik-medium-webfont.woff2?5890f263') format("woff2"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-medium/rubik-medium-webfont.woff?5890f263') format("woff"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-medium/rubik-medium-webfont.ttf?5890f263') format("truetype"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-medium/rubik-medium-webfont.svg?5890f263#rubik') format("svg");
 }
 @font-face {
   font-family: "rubik";
   font-style: normal;
   font-weight: 400;
-  src: url('../../../../../themes/rt_protean/fonts/rubik/rubik-regular/rubik-regular-webfont.eot#iefix') format("embedded-opentype"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-regular/rubik-regular-webfont.woff2') format("woff2"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-regular/rubik-regular-webfont.woff') format("woff"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-regular/rubik-regular-webfont.ttf') format("truetype"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-regular/rubik-regular-webfont.svg#rubik') format("svg");
+  src: url('../../../../../themes/rt_protean/fonts/rubik/rubik-regular/rubik-regular-webfont.eot?5890f263#iefix') format("embedded-opentype"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-regular/rubik-regular-webfont.woff2?5890f263') format("woff2"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-regular/rubik-regular-webfont.woff?5890f263') format("woff"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-regular/rubik-regular-webfont.ttf?5890f263') format("truetype"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-regular/rubik-regular-webfont.svg?5890f263#rubik') format("svg");
 }
 @font-face {
   font-family: "rubik";
   font-style: normal;
   font-weight: 300;
-  src: url('../../../../../themes/rt_protean/fonts/rubik/rubik-light/rubik-light-webfont.eot#iefix') format("embedded-opentype"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-light/rubik-light-webfont.woff2') format("woff2"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-light/rubik-light-webfont.woff') format("woff"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-light/rubik-light-webfont.ttf') format("truetype"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-light/rubik-light-webfont.svg#rubik') format("svg");
+  src: url('../../../../../themes/rt_protean/fonts/rubik/rubik-light/rubik-light-webfont.eot?5890f263#iefix') format("embedded-opentype"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-light/rubik-light-webfont.woff2?5890f263') format("woff2"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-light/rubik-light-webfont.woff?5890f263') format("woff"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-light/rubik-light-webfont.ttf?5890f263') format("truetype"), url('../../../../../themes/rt_protean/fonts/rubik/rubik-light/rubik-light-webfont.svg?5890f263#rubik') format("svg");
 }
 @font-face {
   font-family: "weather";
   font-style: normal;
   font-weight: 400;
-  src: url('../../../../../themes/rt_protean/fonts/weather/artill_clean_icons-webfont.eot#iefix') format("embedded-opentype"), url('../../../../../themes/rt_protean/fonts/weather/artill_clean_icons-webfont.woff2') format("woff2"), url('../../../../../themes/rt_protean/fonts/weather/artill_clean_icons-webfont.woff') format("woff"), url('../../../../../themes/rt_protean/fonts/weather/artill_clean_icons-webfont.ttf') format("truetype"), url('../../../../../themes/rt_protean/fonts/weather/artill_clean_icons-webfont.svg#weather') format("svg");
+  src: url('../../../../../themes/rt_protean/fonts/weather/artill_clean_icons-webfont.eot?5890f263#iefix') format("embedded-opentype"), url('../../../../../themes/rt_protean/fonts/weather/artill_clean_icons-webfont.woff2?5890f263') format("woff2"), url('../../../../../themes/rt_protean/fonts/weather/artill_clean_icons-webfont.woff?5890f263') format("woff"), url('../../../../../themes/rt_protean/fonts/weather/artill_clean_icons-webfont.ttf?5890f263') format("truetype"), url('../../../../../themes/rt_protean/fonts/weather/artill_clean_icons-webfont.svg?5890f263#weather') format("svg");
 }
 /* line 8, user/themes/rt_protean/scss/protean/styles/_typography.scss */
 body {
@@ -2808,7 +2808,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   z-index: 0;
   position: relative;
   border-radius: 0 0 1rem 1rem;
-  background: url('../../../../../themes/rt_protean/images/backgrounds/slideshow/img-01.jpg') no-repeat center center;
+  background: url('../../../../../themes/rt_protean/images/backgrounds/slideshow/img-01.jpg?5890f263') no-repeat center center;
   background-size: cover;
 }
 /* line 14, user/themes/rt_protean/scss/protean/sections/_slideshow.scss */
@@ -3038,7 +3038,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 #g-expanded {
   color: #fff;
   background: #0070b9;
-  background: url('../../../../../themes/rt_protean/images/backgrounds/expanded/img-02.jpg') no-repeat center center;
+  background: url('../../../../../themes/rt_protean/images/backgrounds/expanded/img-02.jpg?5890f263') no-repeat center center;
   background-size: cover;
 }
 /* line 10, user/themes/rt_protean/scss/protean/sections/_expanded.scss */
@@ -3689,7 +3689,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   bottom: 15%;
   margin-left: -40px;
   margin-top: -40px;
-  background: url('../../../../../themes/rt_protean/images/owlcarousel/play.svg') no-repeat;
+  background: url('../../../../../themes/rt_protean/images/owlcarousel/play.svg?5890f263') no-repeat;
   background-size: contain;
   cursor: pointer;
   z-index: 3;
@@ -3701,7 +3701,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 211, user/themes/rt_protean/scss/protean/particles/_owlcarousel.scss */
 .owl-carousel .owl-video-play-icon.paused, .owl-carousel .owl-videolocal-play-icon.paused {
-  background: url('../../../../../themes/rt_protean/images/owlcarousel/paused.svg');
+  background: url('../../../../../themes/rt_protean/images/owlcarousel/paused.svg?5890f263');
   background-size: contain;
   opacity: 0.8;
 }
@@ -7850,7 +7850,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   margin-right: auto;
   bottom: 50%;
   margin-bottom: -40px;
-  background: url('../../../../../themes/rt_protean/images/owlcarousel/play.svg') no-repeat;
+  background: url('../../../../../themes/rt_protean/images/owlcarousel/play.svg?5890f263') no-repeat;
   background-size: contain;
   cursor: pointer;
   opacity: 1;
@@ -7875,7 +7875,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 50, user/themes/rt_protean/scss/protean/particles/_video.scss */
 .g-video .g-videolocal-play.pause {
-  background: url('../../../../../themes/rt_protean/images/owlcarousel/paused.svg');
+  background: url('../../../../../themes/rt_protean/images/owlcarousel/paused.svg?5890f263');
   background-size: contain;
   opacity: 0;
 }
