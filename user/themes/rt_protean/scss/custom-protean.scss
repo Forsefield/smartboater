@@ -1,0 +1,221 @@
+//VARIABLES
+$csbc-blue: #0070b9;
+
+p.small {
+	font-size: 0.75rem;
+}
+
+p.footnote {
+	text-align: left;
+}
+
+section#g-navigation {
+	margin-right: 0;
+	div.box1 {
+		margin-bottom: 0 !important;
+		div.g-content {
+			height: inherit;
+			margin: 0 0 0.625rem 0.625rem;
+			padding: 2.2rem 1.5rem;
+		}
+	}
+}
+
+//DESKTOP
+@media only all and (min-width: 47.938rem) {
+	//shift content on slider
+	.g-owlcarousel-layout-standard .owl-item > div .g-owlcarousel-content {
+		left:2%;
+	}
+	//equipment stuff
+	div.pc-content {
+		text-align: center;
+		a.equipment-item {
+			width: 31%;
+			height: 300px;
+			padding: 2rem 7px 2rem 0;
+			div.equipment-content {
+				p.equipment-desc {
+					display: inline-block;
+					vertical-align: middle;
+					width: 53%;
+					text-align: center;
+				}
+				img.equipment-image {
+					display: inline-block;
+				}
+			}
+		}
+	}
+	//nav aids stuff
+	div.pc-content {
+		text-align: center;
+		a.nav-aid-item {
+			width: 23%;
+			padding: 2rem 7px 2rem 0;
+			div.nav-aid-content {
+				img.nav-aid-image {
+					display: inline-block;
+				}
+			}
+		}
+	}
+	//nav aids details stuff
+	.nav-aid-details {
+		border: 1px solid rgba($light-gray, 0.5);
+		background-color: #eee;
+		border-radius: 6px;
+		margin: 2rem 0;
+		padding: 1.5rem;
+		.nav-aid-details-image {
+			display: inline-block;
+			margin-right: 1.5rem;
+			width: 15%;
+			text-align: center;
+		}
+		.nav-aid-details-desc {
+			display: inline-block;
+			width: 77.5%;
+			vertical-align: top;
+		}
+	}
+	//bottom logos
+	img.bottom-logos {
+		margin: 0 4%;
+		max-height: 110px;
+		border-radius: 6px;
+	}
+}
+//MOBILE
+@media only all and (max-width: 47.938rem) {
+	//recolour offcanvas toggle
+	body.g-default div.g-offcanvas-toggle, body.g-error div.g-offcanvas-toggle {
+		color: #000;
+	}
+	//shift logo to make room for offcanvas toggle
+	a.g-logo {
+		margin-left: 9%;
+	}
+	//equipment stuff
+	div.pc-content {
+		h3 {
+			text-align: center;
+		}
+		a.equipment-item {
+			width: 93%;
+			padding: 2rem 1rem;
+			div.equipment-content {
+				text-align: center;
+			}
+			p.equipment-title {
+				margin: 0;
+			}
+		}
+	}
+	//nav aids stuff
+	div.pc-content {
+		h3 {
+			text-align: center;
+		}
+		a.nav-aid-item {
+			width: 93%;
+			padding: 2rem 1rem;
+			div.nav-aid-content {
+				text-align: center;
+			}
+			p.nav-aid-title {
+				margin: 0;
+			}
+		}
+	}
+	//nav aids details stuff
+	.nav-aid-details {
+		border: 1px solid rgba($light-gray, 0.5);
+		background-color: #eee;
+		border-radius: 6px;
+		margin: 2rem 0;
+		padding: 1.5rem;
+		.nav-aid-details-image {
+			text-align: center;
+			margin: 1rem;
+		}
+		h4 {
+			text-align: center;
+		}
+	}
+	//bottom logos
+	img.bottom-logos {
+		margin: 3% 0;
+		max-height: 110px;
+		border-radius: 6px;
+	}
+}
+
+//equipment stuff
+div.pc-content {
+	a.equipment-item {
+		display: inline-block;
+		border: 1px solid rgba(195,195,195,0.8);
+		border-radius: 6px;
+		margin: 10px;
+		color: black;
+		&:hover {
+			border: 1px solid $csbc-blue;
+			background-color: rgba($csbc-blue,0.5);
+		}
+		p.equipment-title {
+			font-size: 1.5rem;
+			text-align:center;
+		}
+	}
+}
+//nav-aids stuff
+div.pc-content {
+	a.nav-aid-item {
+		display: inline-block;
+		border: 1px solid rgba(195,195,195,0.8);
+		border-radius: 6px;
+		margin: 10px;
+		color: black;
+		&:hover {
+			border: 1px solid $csbc-blue;
+			background-color: rgba($csbc-blue,0.5);
+		}
+		p.nav-aid-title {
+			font-size: 1.5rem;
+			text-align:center;
+		}
+	}
+}
+
+//pleasure craft type buttons
+div.pc-type-buttons {
+	 text-align: center;
+	 margin: 7px;
+	 padding: 13px;
+	 a {
+	 	margin: 20px;
+	 	font-size: 1.25rem;
+	 }
+}
+
+//recommended safety equipment
+div.recommended-equipment, div.regulations, div.rules-of-road, div.nav-aids, div.signalling, div.preparation {
+	border-top: 1px solid rgba(darken($csbc-blue, 15%), 0.55);
+}
+
+//regulations buttons
+div.regulations, div.preparation {
+	.regulations-list, .preparation-list {
+		a.button {
+			margin: 6px;
+		}
+	}
+}
+
+//rules of the road
+div.rules-of-road, div.nav-aids, div.signalling {
+	p, ul {
+		text-align: left;
+	}
+}

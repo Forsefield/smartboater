@@ -1,0 +1,70 @@
+name: features_-_block_variations
+timestamp: 1484898128
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1475002332
+positions:
+  sidebar-a: 'Sidebar A'
+  aside-a: 'Aside A'
+sections:
+  top: Top
+  navigation: Navigation
+  slideshow: Slideshow
+  above: Above
+  showcase: Showcase
+  utility: Utility
+  feature: Feature
+  expanded: Expanded
+  extension: Extension
+  bottom: Bottom
+  copyright: Copyright
+  header: Header
+  sidebar: Sidebar
+  aside: Aside
+  mainbar: Main
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  simplecontent:
+    simplecontent-3247: 'Block Variations - Header'
+  content:
+    system-content-1120: 'Page Content'
+  custom:
+    custom-6582: 'Block Variations - Additional Classes Header'
+    custom-2543: 'Custom HTML'
+  infolist:
+    infolist-1100: 'Block Variations - Additional Classes List'
+  messages:
+    system-messages-7396: 'System Messages'
+  logo:
+    logo-3671: Logo
+  menu:
+    menu-3773: Menu
+  position:
+    position-position-8020: 'Sidebar A'
+    position-position-5814: 'Aside A'
+  branding:
+    branding-5613: Branding
+  social:
+    social-9764: Social
+  mobile-menu:
+    mobile-menu-4488: Mobile-menu
+inherit:
+  default:
+    top: top
+    navigation: navigation
+    sidebar: sidebar
+    aside: aside
+    copyright: copyright
+    offcanvas: offcanvas
+    system-messages-7396: system-messages-9828
+    logo-3671: logo-5992
+    menu-3773: menu-4196
+    position-position-8020: position-position-8538
+    position-position-5814: position-position-8807
+    custom-2543: custom-8501
+    branding-5613: branding-9192
+    social-9764: social-4772
+    mobile-menu-4488: mobile-menu-7951

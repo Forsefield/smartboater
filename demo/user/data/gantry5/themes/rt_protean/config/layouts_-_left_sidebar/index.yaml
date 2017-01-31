@@ -1,0 +1,99 @@
+name: layouts_-_left_sidebar
+timestamp: 1483473130
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1457353897
+positions:
+  header-a: 'Header A'
+  header-b: 'Header B'
+  above-a: 'Above A'
+  showcase-a: 'Showcase A'
+  utility-a: 'Utility A'
+  feature-a: 'Feature A'
+  expanded-a: 'Expanded A'
+  expanded-b: 'Expanded B'
+  extension-a: 'Extension A'
+  footer-a: 'Footer A'
+sections:
+  top: Top
+  navigation: Navigation
+  slideshow: Slideshow
+  above: Above
+  showcase: Showcase
+  utility: Utility
+  feature: Feature
+  sidebar: Sidebar
+  mainbar: Mainbar
+  expanded: Expanded
+  extension: Extension
+  bottom: Bottom
+  copyright: Copyright
+  header: Header
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  simplecontent:
+    simplecontent-7561: 'Left Sidebar Example'
+  custom:
+    custom-7406: 'Left Sidebar'
+    custom-9224: 'Flexible Layouts'
+    custom-8235: 'H2 Heading'
+    custom-8670: 'H5 Heading'
+  messages:
+    system-messages-8492: 'System Messages'
+  logo:
+    logo-9506: Logo
+  menu:
+    menu-6043: Menu
+  position:
+    position-position-7229: 'Header A'
+    position-position-1953: 'Header B'
+    position-position-1636: 'Above A'
+    position-position-9716: 'Showcase A'
+    position-position-6227: 'Utility A'
+    position-position-2048: 'Feature A'
+    position-position-2084: 'Expanded A'
+    position-position-3041: 'Expanded B'
+    position-position-8019: 'Extension A'
+    position-position-2058: 'Footer A'
+  simplemenu:
+    simplemenu-1030: 'Bottom Menu'
+  branding:
+    branding-9103: Branding
+  social:
+    social-4184: Social
+  mobile-menu:
+    mobile-menu-2505: Mobile-menu
+inherit:
+  default:
+    top: top
+    navigation: navigation
+    header: header
+    above: above
+    showcase: showcase
+    utility: utility
+    feature: feature
+    expanded: expanded
+    extension: extension
+    footer: footer
+    copyright: copyright
+    offcanvas: offcanvas
+    system-messages-8492: system-messages-9828
+    logo-9506: logo-5992
+    menu-6043: menu-4196
+    position-position-7229: position-position-7051
+    position-position-1953: position-position-2504
+    position-position-1636: position-position-3264
+    position-position-9716: position-position-9435
+    position-position-6227: position-position-5239
+    position-position-2048: position-position-7980
+    position-position-2084: position-position-8124
+    position-position-3041: position-position-8346
+    position-position-8019: position-position-4800
+    position-position-2058: position-position-6548
+    simplemenu-1030: simplemenu-6826
+    branding-9103: branding-9192
+    social-4184: social-4772
+    mobile-menu-2505: mobile-menu-7951

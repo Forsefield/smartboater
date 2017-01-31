@@ -1,0 +1,67 @@
+name: pages_-_blog
+timestamp: 1484898128
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1475002332
+positions:
+  sidebar-a: 'Sidebar A'
+  aside-a: 'Aside A'
+sections:
+  top: Top
+  navigation: Navigation
+  slideshow: Slideshow
+  above: Above
+  showcase: Showcase
+  utility: Utility
+  feature: Feature
+  expanded: Expanded
+  extension: Extension
+  bottom: Bottom
+  copyright: Copyright
+  header: Header
+  sidebar: Sidebar
+  aside: Aside
+  mainbar: Main
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  simplecontent:
+    simplecontent-7967: 'Header - Blog'
+  content:
+    system-content-1120: 'Page Content'
+  messages:
+    system-messages-4716: 'System Messages'
+  logo:
+    logo-3449: Logo
+  menu:
+    menu-8016: Menu
+  position:
+    position-position-4993: 'Sidebar A'
+    position-position-2526: 'Aside A'
+  custom:
+    custom-1237: 'Custom HTML'
+  branding:
+    branding-1586: Branding
+  social:
+    social-7381: Social
+  mobile-menu:
+    mobile-menu-5524: Mobile-menu
+inherit:
+  default:
+    top: top
+    navigation: navigation
+    sidebar: sidebar
+    aside: aside
+    copyright: copyright
+    offcanvas: offcanvas
+    system-messages-4716: system-messages-9828
+    logo-3449: logo-5992
+    menu-8016: menu-4196
+    position-position-4993: position-position-8538
+    position-position-2526: position-position-8807
+    custom-1237: custom-8501
+    branding-1586: branding-9192
+    social-7381: social-4772
+    mobile-menu-5524: mobile-menu-7951

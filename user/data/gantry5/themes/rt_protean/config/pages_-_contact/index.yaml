@@ -1,0 +1,67 @@
+name: pages_-_contact
+timestamp: 1484898128
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1475002332
+positions:
+  sidebar-a: 'Sidebar A'
+  aside-a: 'Aside A'
+sections:
+  top: Top
+  navigation: Navigation
+  slideshow: Slideshow
+  above: Above
+  showcase: Showcase
+  utility: Utility
+  feature: Feature
+  expanded: Expanded
+  extension: Extension
+  bottom: Bottom
+  copyright: Copyright
+  header: Header
+  sidebar: Sidebar
+  aside: Aside
+  mainbar: Main
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  simplecontent:
+    simplecontent-4084: 'Header - Contact us'
+  content:
+    system-content-1120: 'Page Content'
+  messages:
+    system-messages-1231: 'System Messages'
+  logo:
+    logo-9901: Logo
+  menu:
+    menu-6623: Menu
+  position:
+    position-position-3850: 'Sidebar A'
+    position-position-7669: 'Aside A'
+  custom:
+    custom-7656: 'Custom HTML'
+  branding:
+    branding-7433: Branding
+  social:
+    social-4776: Social
+  mobile-menu:
+    mobile-menu-6263: Mobile-menu
+inherit:
+  default:
+    top: top
+    navigation: navigation
+    sidebar: sidebar
+    aside: aside
+    copyright: copyright
+    offcanvas: offcanvas
+    system-messages-1231: system-messages-9828
+    logo-9901: logo-5992
+    menu-6623: menu-4196
+    position-position-3850: position-position-8538
+    position-position-7669: position-position-8807
+    custom-7656: custom-8501
+    branding-7433: branding-9192
+    social-4776: social-4772
+    mobile-menu-6263: mobile-menu-7951

@@ -1,0 +1,100 @@
+name: layouts_-_two_sidebars
+timestamp: 1484898128
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1457353897
+positions:
+  header-a: 'Header A'
+  header-b: 'Header B'
+  above-a: 'Above A'
+  showcase-a: 'Showcase A'
+  utility-a: 'Utility A'
+  feature-a: 'Feature A'
+  expanded-a: 'Expanded A'
+  expanded-b: 'Expanded B'
+  extension-a: 'Extension A'
+  footer-a: 'Footer A'
+sections:
+  top: Top
+  navigation: Navigation
+  slideshow: Slideshow
+  above: Above
+  showcase: Showcase
+  utility: Utility
+  feature: Feature
+  sidebar: Sidebar
+  mainbar: Mainbar
+  expanded: Expanded
+  extension: Extension
+  bottom: Bottom
+  copyright: Copyright
+  header: Header
+  aside: Aside
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  simplecontent:
+    simplecontent-7561: 'Two Sidebar Example'
+  custom:
+    custom-7406: 'Left Sidebar'
+    custom-6562: 'Custom HTML'
+    custom-8235: 'H2 Heading'
+    custom-9224: 'Right Sidebar'
+    custom-8670: 'H5 Heading'
+    custom-6767: 'Custom HTML'
+  messages:
+    system-messages-2909: 'System Messages'
+  logo:
+    logo-5039: Logo
+  menu:
+    menu-1859: Menu
+  position:
+    position-position-1406: 'Header A'
+    position-position-6125: 'Header B'
+    position-position-6242: 'Above A'
+    position-position-8166: 'Showcase A'
+    position-position-6684: 'Utility A'
+    position-position-6810: 'Feature A'
+    position-position-1381: 'Expanded A'
+    position-position-3745: 'Expanded B'
+    position-position-9783: 'Extension A'
+    position-position-2785: 'Footer A'
+  branding:
+    branding-2837: Branding
+  social:
+    social-6181: Social
+  mobile-menu:
+    mobile-menu-9712: Mobile-menu
+inherit:
+  default:
+    top: top
+    navigation: navigation
+    header: header
+    above: above
+    showcase: showcase
+    utility: utility
+    feature: feature
+    expanded: expanded
+    extension: extension
+    footer: footer
+    copyright: copyright
+    offcanvas: offcanvas
+    system-messages-2909: system-messages-9828
+    logo-5039: logo-5992
+    menu-1859: menu-4196
+    position-position-1406: position-position-7051
+    position-position-6125: position-position-2504
+    position-position-6242: position-position-3264
+    position-position-8166: position-position-9435
+    position-position-6684: position-position-5239
+    position-position-6810: position-position-7980
+    position-position-1381: position-position-8124
+    position-position-3745: position-position-8346
+    position-position-9783: position-position-4800
+    position-position-2785: position-position-6548
+    custom-6767: custom-8501
+    branding-2837: branding-9192
+    social-6181: social-4772
+    mobile-menu-9712: mobile-menu-7951

@@ -1,0 +1,11 @@
+email: josh@forsefield.com
+fullname: Josh
+title: Administrator
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$3k86YYeD.P0qHR6Z0zh5UOKY4cGHUBy5Vt2Jd8qvbxvNgUCc5Bnce

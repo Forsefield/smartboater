@@ -1,0 +1,70 @@
+name: pages_-_portfolio
+timestamp: 1484898128
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1475002332
+positions:
+  sidebar-a: 'Sidebar A'
+  aside-a: 'Aside A'
+sections:
+  top: Top
+  navigation: Navigation
+  slideshow: Slideshow
+  above: Above
+  showcase: Showcase
+  utility: Utility
+  feature: Feature
+  expanded: Expanded
+  extension: Extension
+  bottom: Bottom
+  copyright: Copyright
+  header: Header
+  sidebar: Sidebar
+  aside: Aside
+  mainbar: Main
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  simplecontent:
+    simplecontent-8572: 'Portfolio - Header'
+  infolist:
+    infolist-7957: 'Portfolio Info List'
+    infolist-8412: 'Portfolio Info List'
+  imagegrid:
+    imagegrid-9270: 'Portfolio Image Grid'
+  messages:
+    system-messages-8455: 'System Messages'
+  logo:
+    logo-1975: Logo
+  menu:
+    menu-5990: Menu
+  position:
+    position-position-7825: 'Sidebar A'
+    position-position-7860: 'Aside A'
+  custom:
+    custom-4921: 'Custom HTML'
+  branding:
+    branding-4816: Branding
+  social:
+    social-2664: Social
+  mobile-menu:
+    mobile-menu-1621: Mobile-menu
+inherit:
+  default:
+    top: top
+    navigation: navigation
+    sidebar: sidebar
+    aside: aside
+    copyright: copyright
+    offcanvas: offcanvas
+    system-messages-8455: system-messages-9828
+    logo-1975: logo-5992
+    menu-5990: menu-4196
+    position-position-7825: position-position-8538
+    position-position-7860: position-position-8807
+    custom-4921: custom-8501
+    branding-4816: branding-9192
+    social-2664: social-4772
+    mobile-menu-1621: mobile-menu-7951

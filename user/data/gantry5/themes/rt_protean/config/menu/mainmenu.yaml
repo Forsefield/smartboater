@@ -1,0 +1,46 @@
+settings:
+  title: Mainmenu
+ordering:
+  home: ''
+  pleasure-craft:
+    angler: ''
+    paddler: ''
+    power-boat: ''
+    pwc: ''
+    sail: ''
+items:
+  home:
+    enabled: true
+    anchor_class: ''
+  pleasure-craft:
+    enabled: '1'
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
+  pleasure-craft/angler:
+    enabled: true
+    anchor_class: ''
+  pleasure-craft/paddler:
+    enabled: true
+    anchor_class: ''
+  pleasure-craft/power-boat:
+    enabled: true
+    anchor_class: ''
+  pleasure-craft/pwc:
+    enabled: true
+    anchor_class: ''
+  pleasure-craft/sail:
+    enabled: true
+    anchor_class: ''
+  styles/__particle:
+    type: particle
+    particle: custom
+    title: 'Custom HTML'
+    options:
+      particle:
+        enabled: '1'
+        html: "<div class=\"g-grid g-preset-thumbnails center\">\n    <div class=\"g-block\">\n        <div class=\"g-content\">\n            <a href=\"?presets=preset1\">\n                <img src=\"gantry-media://rocketlauncher/styles/preset1.jpg\" alt=\"Preset 1\">\n                <br>\n                <span>Preset 1</span>\n            </a>\n        </div>\n    </div>\n    <div class=\"g-block\">\n        <div class=\"g-content\">\n            <a href=\"?presets=preset2\">\n                <img src=\"gantry-media://rocketlauncher/styles/preset2.jpg\" alt=\"Preset 2\">\n                <br>\n                <span>Preset 2</span>\n            </a>\n        </div>\n    </div>\n    <div class=\"g-block\">\n        <div class=\"g-content\">\n            <a href=\"?presets=preset3\">\n                <img src=\"gantry-media://rocketlauncher/styles/preset3.jpg\" alt=\"Preset 3\">\n                <br>\n                <span>Preset 3</span>\n            </a>\n        </div>\n    </div>\n    <div class=\"g-block\">\n        <div class=\"g-content\">\n            <a href=\"?presets=preset4\">\n                <img src=\"gantry-media://rocketlauncher/styles/preset4.jpg\" alt=\"Preset 4\">\n                <br>\n                <span>Preset 4</span>\n            </a>\n        </div>\n    </div>\n    <div class=\"g-block\">\n        <div class=\"g-content\">\n            <a href=\"?presets=preset5\">\n                <img src=\"gantry-media://rocketlauncher/styles/preset5.jpg\" alt=\"Preset 5\">\n                <br>\n                <span>Preset 5</span>\n            </a>\n        </div>\n    </div>\n <div class=\"g-block\">\n        <div class=\"g-content\">\n            <a href=\"?presets=preset6\">\n                <img src=\"gantry-media://rocketlauncher/styles/preset6.jpg\" alt=\"Preset 6\">\n                <br>\n                <span>Preset 6</span>\n            </a>\n        </div>\n    </div>\n\n</div>"
+      block:
+        extra: {  }
+    enabled: true
+    anchor_class: ''

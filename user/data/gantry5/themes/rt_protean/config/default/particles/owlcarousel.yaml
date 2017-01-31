@@ -1,0 +1,14 @@
+enabled: '1'
+presets: disabled
+displayitems: '1'
+layout: standard
+width: g-owlcarousel-fullwidth
+animateIn: fadeIn
+animateOut: fadeOut
+nav: enabled
+dots: disabled
+loop: enabled
+videoloop: enabled
+videoautoplay: disabled
+autoplay: disabled
+pauseOnHover: enabled
