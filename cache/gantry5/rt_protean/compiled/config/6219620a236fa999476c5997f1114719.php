@@ -1,225 +1,225 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1485896697,
-    'checksum' => '8ad9c22a49b6058bac93c3064a501355',
+    'timestamp' => 1488400120,
+    'checksum' => '43db3590e97d8980390af140b5cf5299',
     'files' => [
         'user/data/gantry5/themes/rt_protean/config/home' => [
             'assignments' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/home/assignments.yaml',
-                'modified' => 1485894233
+                'modified' => 1484197588
             ],
             'index' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/home/index.yaml',
-                'modified' => 1485894233
+                'modified' => 1488400114
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/home/layout.yaml',
-                'modified' => 1485894233
+                'modified' => 1488400114
             ]
         ],
         'user/data/gantry5/themes/rt_protean/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/index.yaml',
-                'modified' => 1485894233
+                'modified' => 1484898128
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/layout.yaml',
-                'modified' => 1485894233
+                'modified' => 1484898128
             ],
             'menu' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/menu.yaml',
-                'modified' => 1485894233
+                'modified' => 1484197588
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/page/assets.yaml',
-                'modified' => 1485894233
+                'modified' => 1484197588
             ],
             'page/body' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/page/body.yaml',
-                'modified' => 1485894233
+                'modified' => 1484197588
             ],
             'page/head' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/page/head.yaml',
-                'modified' => 1485894233
+                'modified' => 1484197588
             ],
             'particles/accordion' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/accordion.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/blockcontent' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/blockcontent.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/branding' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/branding.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/content' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/content.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/contentarray' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/contentarray.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/contenttabs' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/contenttabs.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/copyright' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/copyright.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/custom' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/custom.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/date' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/date.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/eventlist' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/eventlist.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/flipster' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/flipster.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/gridcontent' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/gridcontent.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/gridstatistic' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/gridstatistic.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/imagegrid' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/imagegrid.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/infolist' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/infolist.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/login' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/login.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/logo' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/logo.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/menu' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/menu.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/messages' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/messages.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/mobile-menu' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/mobile-menu.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/newsletter' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/newsletter.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/owlcarousel' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/owlcarousel.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/position' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/position.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/pricingtable' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/pricingtable.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/search' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/search.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/simplecontent' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/simplecontent.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/simplecounter' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/simplecounter.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/simplemenu' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/simplemenu.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/simpleweather' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/simpleweather.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/social' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/social.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/spacer' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/spacer.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/totop' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/totop.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/video' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/video.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'particles/videogrid' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/particles/videogrid.yaml',
-                'modified' => 1485894233
+                'modified' => 1484892790
             ],
             'styles' => [
                 'file' => 'user/data/gantry5/themes/rt_protean/config/default/styles.yaml',
-                'modified' => 1485894233
+                'modified' => 1484726542
             ]
         ],
         'user/themes/rt_protean/config/default' => [
             'page/assets' => [
                 'file' => 'user/themes/rt_protean/config/default/page/assets.yaml',
-                'modified' => 1485894243
+                'modified' => 1484197587
             ],
             'page/body' => [
                 'file' => 'user/themes/rt_protean/config/default/page/body.yaml',
-                'modified' => 1485894243
+                'modified' => 1484197587
             ],
             'page/head' => [
                 'file' => 'user/themes/rt_protean/config/default/page/head.yaml',
-                'modified' => 1485894243
+                'modified' => 1484197587
             ],
             'particles/branding' => [
                 'file' => 'user/themes/rt_protean/config/default/particles/branding.yaml',
-                'modified' => 1485894243
+                'modified' => 1484197587
             ],
             'particles/copyright' => [
                 'file' => 'user/themes/rt_protean/config/default/particles/copyright.yaml',
-                'modified' => 1485894243
+                'modified' => 1484197587
             ],
             'particles/logo' => [
                 'file' => 'user/themes/rt_protean/config/default/particles/logo.yaml',
-                'modified' => 1485894243
+                'modified' => 1484197587
             ],
             'particles/social' => [
                 'file' => 'user/themes/rt_protean/config/default/particles/social.yaml',
-                'modified' => 1485894243
+                'modified' => 1484197587
             ],
             'particles/totop' => [
                 'file' => 'user/themes/rt_protean/config/default/particles/totop.yaml',
-                'modified' => 1485894243
+                'modified' => 1484197587
             ],
             'styles' => [
                 'file' => 'user/themes/rt_protean/config/default/styles.yaml',
-                'modified' => 1485894243
+                'modified' => 1484197587
             ]
         ]
     ],
@@ -336,113 +336,6 @@ return [
                 ],
                 'icon' => 'fa fa-angle-double-up fa-fw',
                 'content' => 'To Top'
-            ],
-            'analytics' => [
-                'enabled' => true,
-                'ua' => [
-                    'anonym' => false,
-                    'ssl' => false,
-                    'debug' => false
-                ]
-            ],
-            'assets' => [
-                'enabled' => true,
-                'priority' => 0
-            ],
-            'breadcrumbs' => [
-                'enabled' => true
-            ],
-            'content' => [
-                'enabled' => '1'
-            ],
-            'contentarray' => [
-                'enabled' => '1',
-                'article' => [
-                    'limit' => [
-                        'total' => 2,
-                        'columns' => 2,
-                        'start' => 0
-                    ],
-                    'sort' => [
-                        'orderby' => 'default',
-                        'ordering' => 'asc'
-                    ],
-                    'display' => [
-                        'image' => [
-                            'enabled' => 'intro'
-                        ],
-                        'text' => [
-                            'type' => 'intro',
-                            'limit' => '',
-                            'formatting' => 'text'
-                        ],
-                        'title' => [
-                            'enabled' => 'show'
-                        ],
-                        'date' => [
-                            'enabled' => 'published',
-                            'format' => 'l, F d, Y'
-                        ],
-                        'read_more' => [
-                            'enabled' => 'show'
-                        ],
-                        'author' => [
-                            'enabled' => 'show'
-                        ],
-                        'category' => [
-                            'enabled' => 'show'
-                        ]
-                    ]
-                ],
-                'css' => [
-                    'class' => ''
-                ],
-                'extra' => [
-                    
-                ]
-            ],
-            'date' => [
-                'enabled' => '1',
-                'css' => [
-                    'class' => 'date'
-                ],
-                'date' => [
-                    'formats' => 'l, F d, Y'
-                ]
-            ],
-            'frameworks' => [
-                'enabled' => true,
-                'jquery' => [
-                    'enabled' => 0,
-                    'ui_core' => 0,
-                    'ui_sortable' => 0
-                ],
-                'bootstrap2' => [
-                    'enabled' => 0
-                ],
-                'bootstrap3' => [
-                    'enabled' => 0
-                ],
-                'mootools' => [
-                    'enabled' => 0,
-                    'more' => 0
-                ]
-            ],
-            'lightcase' => [
-                'enabled' => true
-            ],
-            'login' => [
-                'enabled' => '1'
-            ],
-            'messages' => [
-                'enabled' => '1'
-            ],
-            'position' => [
-                'enabled' => '1',
-                'chrome' => ''
-            ],
-            'search' => [
-                'enabled' => '1'
             ],
             'accordion' => [
                 'enabled' => '1'
@@ -583,127 +476,120 @@ return [
                 'enabled' => '1',
                 'cols' => 'g-videogrid-2cols',
                 'layout' => 'g-videogrid-standard'
-            ]
-        ],
-        'page' => [
+            ],
+            'analytics' => [
+                'enabled' => true,
+                'ua' => [
+                    'anonym' => false,
+                    'ssl' => false,
+                    'debug' => false
+                ]
+            ],
             'assets' => [
+                'enabled' => true,
                 'priority' => 0,
-                'favicon' => '',
-                'touchicon' => '',
-                'css' => [
-                    
-                ],
-                'javascript' => [
-                    
-                ]
+                'in_footer' => false
             ],
-            'body' => [
-                'attribs' => [
-                    'class' => 'gantry',
-                    'id' => '',
-                    'extra' => [
-                        
-                    ]
-                ],
-                'layout' => [
-                    'sections' => '0'
-                ],
-                'doctype' => 'html',
-                'body_top' => '',
-                'body_bottom' => ''
+            'breadcrumbs' => [
+                'enabled' => true
             ],
-            'head' => [
-                'meta' => [
-                    
-                ],
-                'head_bottom' => '',
-                'atoms' => [
-                    0 => [
-                        'type' => 'assets',
-                        'title' => 'Custom CSS / JS',
-                        'attributes' => [
-                            'enabled' => '1',
-                            'css' => [
-                                0 => [
-                                    'location' => 'gantry-assets://css/animate.css',
-                                    'inline' => '',
-                                    'extra' => [
-                                        
-                                    ],
-                                    'name' => 'Animate CSS'
-                                ]
-                            ],
-                            'javascript' => [
-                                
-                            ]
-                        ],
-                        'id' => 'assets-5424'
-                    ],
-                    1 => [
-                        'type' => 'frameworks',
-                        'title' => 'JavaScript Frameworks',
-                        'attributes' => [
-                            'enabled' => '1',
-                            'jquery' => [
-                                'enabled' => '1',
-                                'ui_core' => '1',
-                                'ui_sortable' => '0'
-                            ],
-                            'bootstrap' => [
-                                'enabled' => '0'
-                            ],
-                            'mootools' => [
-                                'enabled' => '0',
-                                'more' => '0'
-                            ]
-                        ],
-                        'id' => 'frameworks-3048'
-                    ]
-                ]
-            ]
-        ],
-        'pages' => [
-            'blog_list' => [
-                'header' => [
-                    'child_type' => 'blog_item',
-                    'content' => [
-                        'items' => '@self.children',
-                        'leading' => 0,
+            'content' => [
+                'enabled' => '1'
+            ],
+            'contentarray' => [
+                'enabled' => '1',
+                'article' => [
+                    'limit' => [
+                        'total' => 2,
                         'columns' => 2,
-                        'limit' => 5,
-                        'order' => [
-                            'by' => 'date',
-                            'dir' => 'desc'
+                        'start' => 0
+                    ],
+                    'sort' => [
+                        'orderby' => 'default',
+                        'ordering' => 'asc'
+                    ],
+                    'display' => [
+                        'image' => [
+                            'enabled' => 'intro'
                         ],
-                        'show_date' => 0,
-                        'pagination' => 1,
-                        'url_taxonomy_filters' => 1
-                    ]
-                ]
-            ],
-            'modular' => [
-                'features' => [
-                    'name' => 'modular/features',
-                    'header' => [
-                        'template' => 'modular/features'
-                    ]
-                ],
-                'showcase' => [
-                    'name' => 'modular/showcase',
-                    'header' => [
-                        'template' => 'modular/showcase',
-                        'buttons' => [
-                            'primary' => 1
+                        'text' => [
+                            'type' => 'intro',
+                            'limit' => '',
+                            'formatting' => 'text'
+                        ],
+                        'title' => [
+                            'enabled' => 'show'
+                        ],
+                        'date' => [
+                            'enabled' => 'published',
+                            'format' => 'l, F d, Y'
+                        ],
+                        'read_more' => [
+                            'enabled' => 'show'
+                        ],
+                        'author' => [
+                            'enabled' => 'show'
+                        ],
+                        'category' => [
+                            'enabled' => 'show'
                         ]
                     ]
                 ],
-                'text' => [
-                    'name' => 'modular/text',
-                    'header' => [
-                        'template' => 'modular/text',
-                        'image_align' => 'left'
-                    ]
+                'css' => [
+                    'class' => ''
+                ],
+                'extra' => [
+                    
                 ]
+            ],
+            'date' => [
+                'enabled' => '1',
+                'css' => [
+                    'class' => 'date'
+                ],
+                'date' => [
+                    'formats' => 'l, F d, Y'
+                ]
+            ],
+            'feed' => [
+                'enabled' => true
+            ],
+            'frameworks' => [
+                'enabled' => true,
+                'jquery' => [
+                    'enabled' => 0,
+                    'ui_core' => 0,
+                    'ui_sortable' => 0
+                ],
+                'bootstrap2' => [
+                    'enabled' => 0
+                ],
+                'bootstrap3' => [
+                    'enabled' => 0
+                ],
+                'mootools' => [
+                    'enabled' => 0,
+                    'more' => 0
+                ]
+            ],
+            'langswitcher' => [
+                'enabled' => true
+            ],
+            'lightcase' => [
+                'enabled' => true
+            ],
+            'login' => [
+                'enabled' => '1'
+            ],
+            'messages' => [
+                'enabled' => '1'
+            ],
+            'position' => [
+                'enabled' => '1',
+                'chrome' => ''
+            ],
+            'search' => [
+                'enabled' => '1'
             ]
         ],
         'styles' => [
@@ -910,9 +796,146 @@ return [
             ],
             'preset' => 'preset2'
         ],
+        'page' => [
+            'assets' => [
+                'priority' => 0,
+                'in_footer' => false,
+                'favicon' => '',
+                'touchicon' => '',
+                'css' => [
+                    
+                ],
+                'javascript' => [
+                    
+                ]
+            ],
+            'body' => [
+                'attribs' => [
+                    'class' => 'gantry',
+                    'id' => '',
+                    'extra' => [
+                        
+                    ]
+                ],
+                'layout' => [
+                    'sections' => '0'
+                ],
+                'doctype' => 'html',
+                'body_top' => '',
+                'body_bottom' => ''
+            ],
+            'head' => [
+                'meta' => [
+                    
+                ],
+                'head_bottom' => '',
+                'atoms' => [
+                    0 => [
+                        'type' => 'assets',
+                        'title' => 'Custom CSS / JS',
+                        'attributes' => [
+                            'enabled' => '1',
+                            'css' => [
+                                0 => [
+                                    'location' => 'gantry-assets://css/animate.css',
+                                    'inline' => '',
+                                    'extra' => [
+                                        
+                                    ],
+                                    'name' => 'Animate CSS'
+                                ]
+                            ],
+                            'javascript' => [
+                                
+                            ]
+                        ],
+                        'id' => 'assets-5424'
+                    ],
+                    1 => [
+                        'type' => 'frameworks',
+                        'title' => 'JavaScript Frameworks',
+                        'attributes' => [
+                            'enabled' => '1',
+                            'jquery' => [
+                                'enabled' => '1',
+                                'ui_core' => '1',
+                                'ui_sortable' => '0'
+                            ],
+                            'bootstrap' => [
+                                'enabled' => '0'
+                            ],
+                            'mootools' => [
+                                'enabled' => '0',
+                                'more' => '0'
+                            ]
+                        ],
+                        'id' => 'frameworks-3048'
+                    ]
+                ]
+            ]
+        ],
+        'pages' => [
+            'blog_item' => [
+                'header' => [
+                    'process' => [
+                        'markdown' => true,
+                        'twig' => false
+                    ],
+                    'child_type' => 'default'
+                ],
+                'name' => 'default'
+            ],
+            'blog_list' => [
+                'header' => [
+                    'process' => [
+                        'markdown' => true,
+                        'twig' => false
+                    ],
+                    'child_type' => 'blog_item',
+                    'content' => [
+                        'items' => '@self.children',
+                        'leading' => 0,
+                        'columns' => 2,
+                        'limit' => 5,
+                        'order' => [
+                            'by' => 'date',
+                            'dir' => 'desc'
+                        ],
+                        'show_date' => 0,
+                        'pagination' => 1,
+                        'url_taxonomy_filters' => 1
+                    ]
+                ],
+                'name' => 'default'
+            ],
+            'modular' => [
+                'features' => [
+                    'name' => 'modular/features',
+                    'header' => [
+                        'template' => 'modular/features'
+                    ]
+                ],
+                'showcase' => [
+                    'name' => 'modular/showcase',
+                    'header' => [
+                        'template' => 'modular/showcase',
+                        'buttons' => [
+                            'primary' => 1
+                        ]
+                    ]
+                ],
+                'text' => [
+                    'name' => 'modular/text',
+                    'header' => [
+                        'template' => 'modular/text',
+                        'image_align' => 'left'
+                    ]
+                ]
+            ]
+        ],
         'index' => [
             'name' => 'home',
-            'timestamp' => 1484941889,
+            'timestamp' => 1488400114,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -1215,16 +1238,13 @@ return [
                             ],
                             1 => [
                                 'image' => 'gantry-media://banner_powerboat.jpg',
-                                'showcaseimages' => [
-                                    
-                                ],
                                 'icon' => 'fa fa-ship',
                                 'title' => 'Power Boat',
                                 'subtitle' => '',
                                 'author' => '',
                                 'authorimage' => '',
                                 'desc' => 'Learn about rules and equipment specific to Power Boats up to 24m in length.',
-                                'link' => '',
+                                'link' => 'pleasure-craft/power-boat',
                                 'linktext' => 'Learn More',
                                 'buttontarget' => '_self',
                                 'buttonclass' => '',
@@ -1236,16 +1256,13 @@ return [
                             ],
                             2 => [
                                 'image' => 'gantry-media://banner_sail.jpg',
-                                'showcaseimages' => [
-                                    
-                                ],
                                 'icon' => 'fa fa-life-saver',
                                 'title' => 'Sail',
                                 'subtitle' => '',
                                 'author' => '',
                                 'authorimage' => '',
                                 'desc' => 'Learn about rules and equipment specific to Sailboats.',
-                                'link' => '',
+                                'link' => 'pleasure-craft/sail',
                                 'linktext' => 'Learn More',
                                 'buttontarget' => '_self',
                                 'buttonclass' => '',
@@ -1257,16 +1274,13 @@ return [
                             ],
                             3 => [
                                 'image' => 'gantry-media://banner_pwc.jpg',
-                                'showcaseimages' => [
-                                    
-                                ],
                                 'icon' => 'fa fa-anchor',
                                 'title' => 'PWC',
                                 'subtitle' => '',
                                 'author' => '',
                                 'authorimage' => '',
                                 'desc' => 'Learn about rules and equipment specific to Personal Watercraft.',
-                                'link' => '',
+                                'link' => 'pleasure-craft/pwc',
                                 'linktext' => 'Learn More',
                                 'buttontarget' => '_self',
                                 'buttonclass' => '',
@@ -1287,7 +1301,7 @@ return [
                                 'author' => '',
                                 'authorimage' => '',
                                 'desc' => 'Learn about rules and equipment specific to Anglers in any type of vessel.',
-                                'link' => '',
+                                'link' => 'pleasure-craft/angler',
                                 'linktext' => 'Learn More',
                                 'buttontarget' => '_self',
                                 'buttonclass' => '',

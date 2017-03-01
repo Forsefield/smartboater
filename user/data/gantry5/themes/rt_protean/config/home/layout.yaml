@@ -154,14 +154,13 @@ content:
           name: Paddler
         -
           image: 'gantry-media://banner_powerboat.jpg'
-          showcaseimages: {  }
           icon: 'fa fa-ship'
           title: 'Power Boat'
           subtitle: ''
           author: ''
           authorimage: ''
           desc: 'Learn about rules and equipment specific to Power Boats up to 24m in length.'
-          link: ''
+          link: pleasure-craft/power-boat
           linktext: 'Learn More'
           buttontarget: _self
           buttonclass: ''
@@ -172,14 +171,13 @@ content:
           name: 'Power Boat'
         -
           image: 'gantry-media://banner_sail.jpg'
-          showcaseimages: {  }
           icon: 'fa fa-life-saver'
           title: Sail
           subtitle: ''
           author: ''
           authorimage: ''
           desc: 'Learn about rules and equipment specific to Sailboats.'
-          link: ''
+          link: pleasure-craft/sail
           linktext: 'Learn More'
           buttontarget: _self
           buttonclass: ''
@@ -190,14 +188,13 @@ content:
           name: Sail
         -
           image: 'gantry-media://banner_pwc.jpg'
-          showcaseimages: {  }
           icon: 'fa fa-anchor'
           title: PWC
           subtitle: ''
           author: ''
           authorimage: ''
           desc: 'Learn about rules and equipment specific to Personal Watercraft.'
-          link: ''
+          link: pleasure-craft/pwc
           linktext: 'Learn More'
           buttontarget: _self
           buttonclass: ''
@@ -215,7 +212,7 @@ content:
           author: ''
           authorimage: ''
           desc: 'Learn about rules and equipment specific to Anglers in any type of vessel.'
-          link: ''
+          link: pleasure-craft/angler
           linktext: 'Learn More'
           buttontarget: _self
           buttonclass: ''

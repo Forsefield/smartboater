@@ -13,13 +13,10 @@
 
 namespace Gantry\Component\Stylesheet;
 
-use Gantry\Component\Filesystem\Folder;
-use Gantry\Component\Stylesheet\Scss\CompiledScssFile;
 use Gantry\Component\Stylesheet\Scss\Compiler;
-use Gantry\Framework\Base\Gantry;
+use Gantry\Framework\Gantry;
 use Leafo\ScssPhp\Exception\CompilerException;
 use RocketTheme\Toolbox\File\File;
-use RocketTheme\Toolbox\File\PhpFile;
 use RocketTheme\Toolbox\ResourceLocator\UniformResourceLocator;
 
 class ScssCompiler extends CssCompiler
@@ -133,6 +130,8 @@ class ScssCompiler extends CssCompiler
  */
 WARN;
             $css = $warning . "\n\n" . $css;
+        } else {
+            $css = "{$this->checksum()}\n{$css}";
         }
 
         $file->save($css);

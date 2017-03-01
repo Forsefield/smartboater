@@ -13,7 +13,7 @@
 
 namespace Gantry\Admin\Controller\Json;
 
-use Gantry\Component\Controller\JsonController;
+use Gantry\Component\Admin\JsonController;
 use Gantry\Component\Remote\Response as RemoteResponse;
 use Gantry\Component\Response\JsonResponse;
 
@@ -65,7 +65,7 @@ class Changelog extends JsonController
 
                 // add icons for platforms
                 foreach($this->platforms as $platform => $icon) {
-                    $changelog = preg_replace('/(<a href="\#' . $platform . '">)/uis', '$1<i class="fa fa-' . ($icon ?: $platform) . '"></i> ', $changelog);
+                    $changelog = preg_replace('/(<a href="\#' . $platform . '">)/uis', '$1<i class="fa fa-' . ($icon ?: $platform) . '" aria-hidden="true"></i> ', $changelog);
                 }
             } else {
                 $changelog = 'No changelog for version <strong>' . $version . '</strong> was found.';
@@ -73,7 +73,7 @@ class Changelog extends JsonController
         }
 
         $response = [
-            'html' => $this->container['admin.theme']->render('@gantry-admin/ajax/changelog.html.twig', [
+            'html' => $this->render('@gantry-admin/ajax/changelog.html.twig', [
                 'changelog' => $changelog,
                 'version'   => $version,
                 'url'       => $url,

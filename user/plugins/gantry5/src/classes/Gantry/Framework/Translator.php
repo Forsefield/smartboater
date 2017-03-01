@@ -3,18 +3,26 @@
  * @package   Gantry5
  * @author    RocketTheme http://www.rockettheme.com
  * @copyright Copyright (C) 2007 - 2017 RocketTheme, LLC
- * @license   Dual License: MIT or GNU/GPLv2 and later
+ * @license   MIT
  *
  * http://opensource.org/licenses/MIT
- * http://www.gnu.org/licenses/gpl-2.0.html
- *
- * Gantry Framework code that extends GPL code is considered GNU/GPLv2 and later
  */
 
 namespace Gantry\Framework;
 
 use Gantry\Component\Translator\Translator as BaseTranslator;
+use Grav\Common\Grav;
+use Grav\Common\Language\Language;
 
 class Translator extends BaseTranslator
 {
+    public function __construct()
+    {
+        /** @var Language $language */
+        $language = Grav::instance()['language'];
+
+        if ($language->enabled()) {
+            $this->active($language->getLanguage());
+        }
+    }
 }

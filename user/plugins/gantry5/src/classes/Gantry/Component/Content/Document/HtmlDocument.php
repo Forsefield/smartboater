@@ -13,10 +13,11 @@
 
 namespace Gantry\Component\Content\Document;
 
+use Gantry\Component\Content\Block\ContentBlock;
 use Gantry\Component\Content\Block\HtmlBlock;
 use Gantry\Component\Gantry\GantryTrait;
 use Gantry\Component\Url\Url;
-use Gantry\Framework\Base\Gantry;
+use Gantry\Framework\Gantry;
 use RocketTheme\Toolbox\ResourceLocator\UniformResourceLocator;
 
 class HtmlDocument
@@ -73,10 +74,10 @@ class HtmlDocument
     }
 
     /**
-     * @param HtmlBlock $block
+     * @param ContentBlock $block
      * @return $this
      */
-    public function addBlock(HtmlBlock $block)
+    public function addBlock(ContentBlock $block)
     {
         static::$stack[0]->addBlock($block);
 

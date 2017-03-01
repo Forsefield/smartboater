@@ -13,7 +13,7 @@
 
 namespace Gantry\Admin\Controller\Json;
 
-use Gantry\Component\Controller\JsonController;
+use Gantry\Component\Admin\JsonController;
 use Gantry\Component\Response\JsonResponse;
 use RocketTheme\Toolbox\Event\Event;
 
@@ -21,9 +21,7 @@ class Devprod extends JsonController
 {
     public function store()
     {
-        $global = $this->container['global'];
-
-        $production = ($global->get('production', 0) + 1) & 1;
+        $production = intval((bool)$this->request->post['mode']);
 
         // Fire save event.
         $event = new Event;
